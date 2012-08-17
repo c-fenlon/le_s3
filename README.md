@@ -1,3 +1,5 @@
+- scripts and instructions for Ubuntu, can be modified for Amazon AMI
+
 Option A: Mount the S3 bucket on an EC2 instance
 ================================================
 (recommended)
