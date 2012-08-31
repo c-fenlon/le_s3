@@ -1,8 +1,7 @@
-- scripts and instructions for Ubuntu, can be modified for Amazon AMI
-
 Option A: Mount the S3 bucket on an EC2 instance
 ================================================
 (recommended)
+- scripts and instructions for Ubuntu, can be modified for Amazon AMI
 
 1. Launch an EC2 instance and create an S3 bucket. In the S3 buckets you wish to gather access logs from, enable Logging (Properties > Logging) and select the new bucket as the Target Bucket. Enter a unique Target Prefix for each, as this will be used to create log files in your Logentries dashboard. Note that the name of the logging bucket must not use upper case characters to comply with the mounting procedure.
 
